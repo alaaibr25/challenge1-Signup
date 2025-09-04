@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 
     <title>Sign Up</title>
 </head>
 <body>
 
-<div id="content">
+<div id="content" style="background-image: url('static/bgl.jpg');">
     <div id="card-form">
         <div id="div-form">
             <h1 style="margin:50px 40px 50px 0; padding-left:20px;">Create your account</h1>
@@ -20,15 +20,15 @@
                 <br>
                 <input class="input-style input2" name="password" type="password" placeholder="Password">
                 <br>
-                <a class="a-btn create-btn" href="#">Create account</a>
+                <button type="submit" class="a-btn create-btn">Create account</button>
 
             </form>
         </div>
-
-    <div id="div-right"></div>
-
     </div>
 
+     <div id="div-right">
+        <img  id="div-right-in" src="static/bgl.jpg" width="700px">
+    </div>
 
 </div>
 
@@ -37,4 +37,5 @@
 
 
 </body>
+
 </html>
