@@ -81,11 +81,16 @@ html, body{width:100%;
         #div-right{visibility: hidden; width:0px;}
         #div-right-in{position:static; width:0px;}
         .sign-btn{padding:10px 20px;}
-        .input-style{padding:10px 8px;}
+        .input-style{padding:10px 8px; font-weight:500;}
         .create-btn{padding:10px 20px;}    
 
 
 
 }
+
+@media (max-width:600px){
+        #card-form{left:50px;}
+}
+
 
 
