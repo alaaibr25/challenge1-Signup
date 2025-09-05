@@ -70,7 +70,7 @@ html, body{width:100%;
 
 @media (max-width:800px){
         #content {position:absolute;
-                  width:100%; height:615px;}
+                  width:100%; height:100%;}
 
         #card-form{width:70%;
                    position:relative;
@@ -81,10 +81,11 @@ html, body{width:100%;
         #div-right{visibility: hidden; width:0px;}
         #div-right-in{position:static; width:0px;}
         .sign-btn{padding:10px 20px;}
-        .input-style{padding:10px 20px;}
+        .input-style{padding:10px 8px;}
         .create-btn{padding:10px 20px;}    
 
 
 
 }
+
 
